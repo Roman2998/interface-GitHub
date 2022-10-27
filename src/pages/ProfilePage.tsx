@@ -19,7 +19,7 @@ const ProfilePage = () => {
 
             <div className="flex flex-wrap mx-auto justify-center w-full ">
                 {isLoading && <p>Загрузка репозиториев...</p>}
-                { repos?.map(repo => <RepoCard repo={repo} key={repo.id} />) }
+                { repos?.map(repo => <RepoCard {...repo} key={repo.id} />) }
             </div>
         </div>
     );

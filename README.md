@@ -1,6 +1,6 @@
 # Начало работы с Create React App
 
-Этот проект создан при помощи [Create React App](https://github.com/facebook/create-react-app). \
+Этот проект создан при помощи [Create React App](https://github.com/facebook/create-react-app).
 
 Стек: TypeScript, Redux Toolkit, RTK Query, Tailwind CSS
 
